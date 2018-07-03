@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        tools:context = ".MainActivity">
+
+        <RelativeLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_centerHorizontal = "true"
+            android:layout_centerInParent = "true">
+
+            <Button
+                android:id = "@+id/btn_trackEvent"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_centerInParent = "true"
+                android:text = "Track Event"
+                android:textAllCaps = "true" />
+
+            <Button
+                android:id = "@+id/btn_trackEvent_with_data"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_below = "@+id/btn_trackEvent"
+                android:text = "Event with Data"
+                android:textAllCaps = "true" />
+
+            <Button
+                android:id = "@+id/bt_search"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_below = "@+id/btn_trackEvent_with_data"
+                android:text = "Search"
+                android:textAllCaps = "true" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>
