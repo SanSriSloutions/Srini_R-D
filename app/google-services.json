@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "197192845252",
+    "firebase_url": "https://srinird-9ede5.firebaseio.com",
+    "project_id": "srinird-9ede5",
+    "storage_bucket": "srinird-9ede5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197192845252:android:9be11ea20e04af3c",
+        "android_client_info": {
+          "package_name": "com.example.sansri.fabricdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197192845252-9339e1t60kfuabtunja16l0goe1clvem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sansri.fabricdemo",
+            "certificate_hash": "86f1db8f8db693f410624d5aa501c753e5892b62"
+          }
+        },
+        {
+          "client_id": "197192845252-9r53kef3q30iq8qiggpav3sb60jp1hb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd710QQLhPULcJSBZjnOy06rrLZrg_4Tg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197192845252-9r53kef3q30iq8qiggpav3sb60jp1hb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
